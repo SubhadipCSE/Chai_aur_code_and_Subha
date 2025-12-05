@@ -3,10 +3,14 @@
   "version": "1.0.0",
   "description": "This is a project with Chai Aur Backend by Chai or Code",
   "license": "ISC",
-  "author": "Subhadip Samanta Jayashree Mondal Chai or code",
-  "type": "commonjs",
+  "author": "Subhadip Samanta Chai or code",
+  "type": "module",
   "main": "index.js",
+
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev" : "nodemon scr/index.js"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.11"
   }
 }
