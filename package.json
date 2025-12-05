@@ -6,11 +6,13 @@
   "author": "Subhadip Samanta Chai or code",
   "type": "module",
   "main": "index.js",
-
   "scripts": {
-    "dev" : "nodemon scr/index.js"
+    "dev": "nodemon scr/index.js"
   },
   "dependencies": {
     "nodemon": "^3.1.11"
+  },
+  "devDependencies": {
+    "prettier": "^3.7.4"
   }
 }
